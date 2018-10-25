@@ -1,0 +1,222 @@
+/*
+ Theme Name:   Skin Dotro
+ Description:  Hypericum Impex.ro Child Theme
+ Author:       Romeo C.
+ Author URI:   http://romeocovaci.github.com
+ Template:     skin-hypericum
+ Version:      1.0.0
+ Text Domain:  woodmart
+*/
+
+
+
+.woodmart-cookies-inner .cookies-buttons {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin-right: 220px;
+}
+
+.whb-general-header .woodmart-logo img {
+    max-height: 160px !important;
+    z-index: 500 !important;
+}
+
+.woodmart-header-overcontent .title-size-small {
+    padding-top: 160px !important;
+}
+
+.site-logo {
+    z-index: 9999999 !important;
+}
+
+.wpml-ls-native {
+    color: #444444;
+}
+
+.wpml-ls-menu-item .wpml-ls-flag+span {
+    margin-left: .7em;
+}
+
+.wpb_content_element {
+    margin-bottom: 0px !important;
+    margin-left: -10px;
+}
+
+.vc_tta-panel-body {
+    padding-top: 0;
+    padding-left: 15px !important;
+}
+
+.menu-mega-dropdown .sub-menu>li {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 170px;
+    flex: 0 0 170px;
+    max-width: 170px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-bottom: 25px;
+}
+
+.menu-mega-dropdown .sub-sub-menu li a {
+    display: block;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 7px 0;
+}
+
+.search-by-category .input-dropdown-inner>a {
+    display: block;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding-left: 62px;
+    padding-right: 62px;
+    text-align: center;
+    color: #777;
+}
+
+.search-by-category .list-wrapper {
+    position: absolute;
+    right: 1px;
+    top: 100%;
+    margin-top: 2px;
+    width: 250px;
+    height: auto;
+    display: none;
+    z-index: 300;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+    box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+}
+
+.pswp__bg {
+    background: rgb(255, 255, 255);
+}
+
+.product-labels {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    z-index: 1;
+    max-width: 90%;
+    -webkit-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}
+
+.whb-secondary-menu .menu-simple-dropdown .sub-menu-dropdown,
+.whb-secondary-menu .menu-simple-dropdown .sub-sub-menu {
+    width: 260px;
+}
+
+.woodmart-woocommerce-layered-nav .layer-term-name {
+    line-height: 1;
+    font-size: 12px;
+    font-family: inherit;
+}
+
+.widget_layered_nav ul li a {
+    font-size: 95% !important;
+}
+
+.fb_customer_chat_bounce_in_v2 {
+    z-index: auto !important;
+}
+
+.woodmart-shopping-cart .woodmart-cart-subtotal .amount .tax_label {
+    display: none;
+}
+
+.woodmart-header-links .menu-simple-dropdown li a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.woodmart-header-links .menu-simple-dropdown .sub-menu-dropdown {
+    width: 200px;
+}
+
+.menu-simple-dropdown .sub-menu-dropdown,
+.menu-simple-dropdown .sub-sub-menu {
+    width: 260px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-simple-dropdown li a {
+    display: block;
+    position: relative;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.whb-secondary-menu .menu-simple-dropdown li a {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+@media only screen and (device-width:768px) {
+    /* default iPad screens */
+    .product-image-summary-inner>div:last-child {
+        margin-bottom: 0;
+        padding: 10px 50px;
+    }
+    .woodmart-my-account-sidebar {
+        display: none;
+    }
+    .woocommerce-MyAccount-content,
+    .woodmart-my-account-sidebar {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+        padding-top: 10px;
+    }
+}
+
+.autocomplete-suggestion .suggestion-thumb
+.container-image-and-badge
+.yith-wcbm-badge
+{
+    display:none;
+}
+.post-single-page {
+    text-align: left;
+	border-bottom: 1px solid #f4f4f4
+}
+.woodmart-header-links .sub-menu-dropdown {
+    width: 210px;
+}
+.woocommerce-table--order-details {background:#fff;}
+.woocommerce-pagination .page-numbers .page-numbers {
+    font-size: 18px;
+    font-weight: 600;
+    min-width: 42px;
+    height: 44px;
+    line-height: 44px;
+}
+
+
+.shop_attributes p {
+	font-size:11px;
+}
+
+.tax_label {
+    display: none;
+}
